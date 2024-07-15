@@ -43,3 +43,13 @@ space: O(1)
 Ques : Find the “Kth” max and min element of an array
 
 code:
+ public static int kthSmallest(int[] arr, int l, int r, int k) {
+    Arrays.sort(arr);
+    return arr[k-1];
+} 
+
+complexity:
+time: O(n*log(n))
+space: O(1)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
